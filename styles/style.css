@@ -14,9 +14,24 @@
  }
 
 header {
+
+    display:inline-flex; 
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
     border: green 2px solid;
     font-family: 'Yellowtail', cursive;
     font-size: 2rem;
+    vertical-align: top;
+}
+
+
+#social {
+    text-align: right;
+    display:inline-block;
+    content:"";
+    width: 83%; 
 }
 
 h1 {
@@ -43,6 +58,10 @@ section {
     border:lime 2px solid;
 }
 
+#blog {
+    font-size: .5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
 
 
 
