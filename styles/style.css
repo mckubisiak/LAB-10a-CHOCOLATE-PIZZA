@@ -1,12 +1,22 @@
 /* Our own */
-
-html {
-    border: orange 2px solid;
+* {
+    background-color:lightsteelblue;
+    
 }
+
+
+ body {
+    width: 1000px;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    margin: auto;
+
+ }
 
 header {
     border: green 2px solid;
     font-family: 'Yellowtail', cursive;
+    font-size: 2rem;
 }
 
 h1 {
@@ -31,10 +41,6 @@ section {
 
 #share {
     border:lime 2px solid;
-}
-
-* {
-    background-color:lightsteelblue;
 }
 
 
