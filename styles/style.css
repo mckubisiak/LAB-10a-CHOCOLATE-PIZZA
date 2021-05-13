@@ -6,6 +6,7 @@ html {
 
 header {
     border: green 2px solid;
+    font-family: 'Yellowtail', cursive;
 }
 
 h1 {
@@ -33,7 +34,7 @@ section {
 }
 
 * {
-    background-color:lightsteelblue
+    background-color:lightsteelblue;
 }
 
 
