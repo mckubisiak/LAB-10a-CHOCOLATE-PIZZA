@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@346;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
@@ -15,16 +19,37 @@
 </head>
 
 <body>
-    <header id="hdr1">Delcious picture</header>
+    <header id="hdr1"> 
+        <div><span><img src="assets\logo.png" alt="logo"></span> </div>
+        <div id="logo">
+        <span>Delicious<br>
+        <p id="blog"> BEST FOOD BLOG ON THE WEB</p> </span>
+    </div>
+
+    <div id="social"> 
+        <img src="assets\fb-icon.png" alt="facebook link"></span> 
+        <img src="assets\twit-icon.png" alt="twitter link"></span> 
+        <img src="assets\gp-icon.png" alt="google plus link"></span> 
+        <img src="assets\insta-icon.png" alt="instagram link"></span> 
+        <img src="assets\flic-icon.png" alt="flicker link"></span> 
+        <img src="assets\pint-icon.png" alt=" pintrest link"></span> 
+        <img src="assets\rss-icon.png" alt="rss link"></span> 
+        <img src="assets\mail-icon.png" alt="email link"></span> 
+    </div>
+
+    </header>
     <main id="main">
-        <h1>Chocolate Pizza</h1>
+        <h1>
+            <div>Chocolate Pizza</div>
+            <div id="subheading">  POSTED ON 15 DEC/DESSERTS </div>
+            <div id="prince"><img src="assets\print-icon.png" alt="print page"> </div>
+            </h1>
         <article>
-            <img id="choco-pie">
+            <img src="assets\choco-pizza.png">
 
         </article>
         <section>   
             For the fig-swirl: Melt butter over medium hear in a saucepan. Add brown sugar and dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
-            </p>
         <br><br>    
             Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm.  Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.
         <br><br>    
@@ -32,36 +57,38 @@
         <br><br>
 
         </section>
-        <div id="recipe">Will need notcard wall paper and ULs
-            
-            <ul>
-                <li>1 1/2 cups milk</li>
-                <li>1/2 cup marscarpone</li>
-                <li>1/2 tsp pink salt</li>
-                <li>1 lb. Black Missions Figs</li>
-                <li>1/2 cup brown sugar</li>
-                <li>2-4 tbsp water</li>
-                <li>1 1/2 cups heavy cream</li>
-                <li>1/3 granulated sugar</li>
-                <li>2 egg yolks</li>
-                <li>1 lemon, juiced</li>
-                <li>2 tbsp butter</li>
-                <li>1 cup honey roasted pecans, roughly chopped</li>
+        <div class="recipe"> 
 
-           </ul>
+            <ul>
+                <li><input type="checkbox">1 1/2 cups milk</li>
+                <li><input type="checkbox">1/2 cup marscarpone</li>
+                <li><input type="checkbox">1/2 tsp pink salt</li>
+                <li><input type="checkbox">1 lb. Black Missions Figs</li>
+                <li><input type="checkbox">1/2 cup brown sugar</li>
+                <li><input type="checkbox">2-4 tbsp water</li>
+                <li><input type="checkbox">1 1/2 cups heavy cream</li>
+                <li><input type="checkbox">1/3 granulated sugar</li>
+                <li><input type="checkbox">2 egg yolks</li>
+                <li><input type="checkbox">1 lemon, juiced</li>
+                <li><input type="checkbox">2 tbsp butter</li>
+                <li><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
+
+            </ul>
 
         </div>
         <div id="share">
-            <img src="">
-            <p id="author">Vanessa Stevenson</p>
+            <div id="name-image">
+            <img src="assets\van-pic.png">
+            Vanessa Stevenson</div>
+            <div id="share-center">
             <p id="bio">
                 Food Enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
-            </p>
-            <button id="share-button">SHARE</button>
+            </p></div>
         </div>
+        <p align-"right"> <button id="share-button" style="float: right;">SHARE</button> </p>
     </main>
     <footer>
-        <img id="food-icon">
+        <img src="assets/small-logo.png"><br>
         Delicious &copy; All rights reserved.<br>
         Proudly published with Ghost.
     </footer>
